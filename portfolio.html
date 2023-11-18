@@ -100,7 +100,7 @@
         display: flex;
         width: 800px;
         justify-content: space-between;
-        color: white;
+        color: rgb(235, 216, 107);
         font-size: 40px;
         padding-left: 50px;
         padding-top: 10px;
@@ -167,12 +167,13 @@
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-        width: 100%;
+        width: 80%;
         height: 80vh;
         color: white;
         font-size: 30px;
         justify-content: space-evenly;
         padding-top: 50px;
+        padding-left: 120px;
     }
 
     .edupic>img {
@@ -235,7 +236,43 @@
         padding-top: 20px;
         padding-left: 50px;
     }
-
+    .gameiotproj{
+        font-size: 50px;
+        color: rgb(255, 208, 0);
+        font-family: "VT323", serif;
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+    .gameiotprojall{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-evenly;
+        color: rgb(235, 216, 107);
+        font-size: 30px;
+        font-family: "VT323", serif;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 50px;
+    }
+    .gameiotproj>div, .gameiotprojall>div{
+        width: 300px;
+    }
+    .home:hover{
+      background-color: rgb(192, 13, 13);
+      cursor: grab;
+    }
+    .edu:hover{
+      background-color: rgb(255, 208, 0);
+      cursor: grab;
+    }
+    .cert:hover{
+      background-color: rgb(192, 13, 13);
+      cursor: grab;
+    }
+    .proj:hover{
+      background-color: rgb(255, 208, 0);
+      cursor: grab;
+    }
 </style>
 <body>
     <div class="allpage">
@@ -333,6 +370,22 @@
         <div class="forthpage">
             <div class="projtextbg">
                 <div class="projtext">Projects</div>
+            </div>
+            <div class="gameiotproj">Python game projects</div>
+            <div class="gameiotprojall">
+                <div>Monkey and Banana game<img src="https://media.discordapp.net/attachments/1040242845287731301/1175356464861302784/qrcode_83051587_a1abea64effa9a044c6f50d25ecaed5f.png?ex=656aef02&is=65587a02&hm=2e0ddfb5ac40c07c36bdbbfef882a899958d29513483882702135168c9058b00&=&width=468&height=468" style="width: 150px;">
+                </div>
+                <div>Flappy bird game<img src="https://media.discordapp.net/attachments/1040242845287731301/1175356695573168158/qrcode_83051664_a3d955559deac86ebb4953fd3b968ad9.png?ex=656aef39&is=65587a39&hm=24e9add3585523ea684afb43c215d5cd3556ea31cbc7ce06660658fc67af0d26&=&width=468&height=468"style="width: 150px;"></div>
+                <div>Apple girl game<img src="https://media.discordapp.net/attachments/1040242845287731301/1175356980903301170/qrcode_83051709_d50bbe206f38a9a7c9962ee146ae035c.png?ex=656aef7d&is=65587a7d&hm=b4297631b523e56cafc7b456f968bd86be96d8feab223f9fcb96b6c1ec4a2b15&=&width=468&height=468"style="width: 150px;"></div>
+                <div>Run Rabbit Run game<img src="https://media.discordapp.net/attachments/1040242845287731301/1175357130186956910/qrcode_83051709_d50bbe206f38a9a7c9962ee146ae035c_1.png?ex=656aefa0&is=65587aa0&hm=6ef9cb60e4151d306b8c8c094a2d2009754fb66bdf385083b9d78cf0b00eaab9&=&width=468&height=468"style="width: 150px;"></div>
+            </div>
+            <div class="gameiotproj">IoT projects[ESP32]</div>
+            <div class="gameiotprojall">
+                <div></div>
+                <div>LED and Buzzer<br><img src="https://media.discordapp.net/attachments/1040242845287731301/1175357279583883305/qrcode_83051767_a0a2bb02c40947f3962079b6423c93a2.png?ex=656aefc4&is=65587ac4&hm=ca0ea59932a5258eed5897cea4273440e7551ec5a34e0794999e7b670c61dcff&=&width=468&height=468"style="width: 150px;"></div>
+                <div>RGB and Servo<br><img src="https://media.discordapp.net/attachments/1040242845287731301/1175357917776597062/qrcode_83051791_61b3cc9084f4cedd3dfa3bfaa1aedbb1.png?ex=656af05c&is=65587b5c&hm=3299495c9b3f5524a4636c52f61703a7349ac0991fd7420c15e3fc604d46187b&=&width=468&height=468"style="width: 150px;"></div>
+                <div></div>
+            </div>
         </div>
     </div>
     <script>
