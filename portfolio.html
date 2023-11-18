@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kdam Thmor Pro|VT323">
+</head>
+<style>
+    body {
+        margin: 0%
+    }
+
+    .allpage {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 400vh;
+        flex-wrap: nowrap;
+    }
+
+    .firstpage {
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 5vh;
+        justify-content: space-around;
+        color: white;
+        font-size: 20px;
+        font-family: "Kdam Thmor Pro", serif;
+        align-items: center;
+    }
+
+    .overall {
+        display: grid;
+        grid-template-columns: 30% auto;
+        width: 100%;
+        height: 95vh;
+    }
+
+    .leftpage {
+        width: auto;
+        height: 92vh;
+        background-color: rgb(255, 208, 0);
+        color: rgb(192, 13, 13);
+        font-family: "VT323", serif;
+        padding-top: 20px;
+        padding-left: 35px;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .rightpage {
+        width: auto;
+        height: 95vh;
+        background-color: rgb(192, 13, 13);
+    }
+
+    .porttext {
+        padding-bottom: 15px;
+        font-size: 70px;
+    }
+
+    .nametext {
+        font-size: 45px;
+        padding-top: 10px;
+        padding-left: 16px;
+
+    }
+
+    .mypic {
+        width: 300px;
+        border: 10px solid white;
+    }
+
+    .big1 {
+        color: rgb(255, 208, 0);
+        font-family: "VT323", serif;
+        font-size: 60px;
+        padding-left: 35px;
+        padding-top: 10px;
+    }
+
+    .small1 {
+        color: white;
+        font-size: 30px;
+        padding-left: 50px;
+        padding-top: 10px;
+        font-family: "VT323", serif;
+    }
+
+    .medium1 {
+        display: flex;
+        width: 800px;
+        justify-content: space-between;
+        color: white;
+        font-size: 40px;
+        padding-left: 50px;
+        padding-top: 10px;
+        font-family: "VT323", serif;
+    }
+
+    .small2 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 800px;
+        color: white;
+        font-size: 30px;
+        padding-left: 50px;
+        padding-top: 10px;
+        font-family: "VT323", serif;
+    }
+
+    .contact {
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 200px;
+    }
+
+    .contact1 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 500px;
+        color: white;
+        font-size: 30px;
+        justify-content: space-around;
+        padding-left: 200px;
+        font-family: "VT323", serif;
+        padding-bottom: 10px;
+    }
+
+    .contact>img {
+        width: 90px;
+    }
+
+    .secondpage {
+        background-color: rgb(192, 13, 13);
+        width: 100%;
+        height: 100vh;
+    }
+
+    .edutextbg {
+        width: 100%;
+        height: 20vh;
+        background-color: rgb(255, 208, 0);
+        border-top-style: solid;
+    }
+
+    .edutext {
+        font-family: "VT323", serif;
+        font-weight: bold;
+        font-size: 70px;
+        color: rgb(192, 13, 13);
+        padding-top: 20px;
+        padding-left: 35px;
+    }
+
+    .edupic {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        width: 100%;
+        height: 80vh;
+        color: white;
+        font-size: 30px;
+        justify-content: space-evenly;
+        padding-top: 50px;
+    }
+
+    .edupic>img {
+        width: 400px;
+    }
+
+    .thirdpage {
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+    }
+    .certtextbg{
+        width: 100%;
+        height: 20vh;
+        background-color: rgb(192, 13, 13);
+        border-top-style: solid;
+        border-top-width: 5px;
+    }
+    .certtext{
+        font-family: "VT323", serif;
+        font-weight: bold;
+        font-size: 70px;
+        color: beige;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    .certpage{
+        width: 95%;
+        height: 80vh;
+        background-color: beige;
+        border-left-style: solid;
+        border-left-color:rgb(255, 208, 0) ;
+        border-left-width:10vh ;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto;
+        justify-content: space-evenly;
+        padding-top: 25px;
+    }
+    .certpage>img{
+        width: 200px;
+    }
+    .forthpage{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    }
+    .projtextbg{
+        width: 100%;
+        height: 20vh;
+        background-color: rgb(192, 13, 13);
+        border-top-style: solid;
+        border-top-width: 5px;
+    }
+    .projtext{
+        font-family: "VT323", serif;
+        font-weight: bold;
+        font-size: 70px;
+        color: beige;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+</style>
+<body>
+    <div class="allpage">
+        <div class="firstpage">
+            <div class="header">
+                <div class="home" onclick="scrollbutton(0)">Home</div>
+                <div class="edu" onclick="scrollbutton(660)">Education</div>
+                <div class="cert" onclick="scrollbutton(1320)">Certificates</div>
+                <div class="proj" onclick="scrollbutton(1980)">Projects</div>
+            </div>
+            <div class="overall">
+                <div class="leftpage">
+                    <div class="porttext">Portfolio</div>
+                    <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175087189315563570/IMG_5619.jpg?ex=6569f439&is=65577f39&hm=9d9ec981fa88dbe52bd32c7415a9030242cb373af8012d271ee7436731dc2ff5&"
+                        class="mypic">
+                    <div class="nametext">Pasika Hemanurak</div>
+                </div>
+                <div class="rightpage">
+                    <div class="big1">Personal information</div>
+                    <div class="small1">
+                        Name: Pasika Hemanurak<br>
+                        Age: 17 years old<br>
+                        School: Saint Joseph Thiphawan<br>
+                        Date of birth: 14 September 2006
+                    </div>
+                    <div class="big1">Skills</div>
+                    <div class="medium1">
+                        <span>Coding</span>
+                        <span>Website</span>
+                        <span>IoT</span>
+                        <span>App/Game development</span>
+                    </div>
+                    <div class="small2">
+                        <div>- Python</div>
+                        <div>- HTML</div>
+                        <div>- ESP32</div>
+                        <div>- MIT App Inventor</div>
+                        <div>- c/c++</div>
+                        <div>- CSS</div>
+                        <div> </div>
+                        <div>- Roblox Studio</div>
+                        <div> </div>
+                        <div>- JavaScript</div>
+                    </div>
+                    <span class="big1">Contacts:</span>
+                    <span class="contact1">
+                        <span>Line</span>
+                        <span>Instagram</span>
+                        <span>Email</span>
+                    </span>
+                    <div class="contact">
+                        <img
+                            src="https://media.discordapp.net/attachments/1040242845287731301/1175284957694926848/IMG_4084.jpg?ex=656aac69&is=65583769&hm=d4cfb338b9ed1331f8e72f3c5604acb60d73cd088644599be9f9d8b9714ce91b&=&width=468&height=468">
+                        <img
+                            src="https://media.discordapp.net/attachments/1040242845287731301/1175288288031015054/IMG_2324.png?ex=656aaf83&is=65583a83&hm=a656e15ebf509ad2f68ce6816db77d7551b9b689fb639a671232cf649fcea958&=&width=459&height=468">
+                        <img
+                            src="https://media.discordapp.net/attachments/1040242845287731301/1175289255094915143/IMG_2325.png?ex=656ab06a&is=65583b6a&hm=403f6d370d61e8a900745a55d8445cd187a37b89b4e2d26b52fe9fac96729707&=&width=493&height=468">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="secondpage">
+            <div class="edutextbg">
+                <div class="edutext">Education</div>
+            </div>
+            <div class="edupic">
+                <img
+                    src="https://media.discordapp.net/attachments/1040242845287731301/1175285006680211526/IMG_5667.png?ex=656aac75&is=65583775&hm=4b68fb80d41fcffa4d401f1dd0800c1961c517133683cdeefdcf2a7d9c8fff01&=&width=960&height=341">
+                <img
+                    src="https://cdn.discordapp.com/attachments/1040242845287731301/1175285018340380712/IMG_5668.png?ex=656aac78&is=65583778&hm=ba704ae3562f5dc6bb9b739ebcf3b1d125710e4c1889e20b152257db8729653c&">
+                <img
+                    src="https://cdn.discordapp.com/attachments/1040242845287731301/1175285030726144021/IMG_5669.png?ex=656aac7b&is=6558377b&hm=046c37e960a1b189170dce157d7d90450929d2cd96e4665122e92d297fba1393&">
+                <img
+                    src="https://cdn.discordapp.com/attachments/1040242845287731301/1175285043573297243/IMG_5670.png?ex=656aac7e&is=6558377e&hm=84e58bff740be32d228d696dcacfe76374186c8aa48dd4654d798a2bfd293838&">
+            </div>
+        </div>
+        <div class="thirdpage">
+            <div class="certtextbg">
+                <div class="certtext">Certificates</div>
+            </div>
+            <div class="certpage">
+                <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175087478709960724/IMG_5127.png?ex=6569f47e&is=65577f7e&hm=bc44225f187d023536d0cbcfca6c12c32a162eb386266cf8ee29f15c546e4af6&">
+                <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175316181314445403/IMG_5661.png?ex=656ac97d&is=6558547d&hm=a1039d47f4c6b0911cc3ddf58933c6d38bd0a276fbba4117a757edc145e50578&">
+                <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175087479544619048/IMG_4085.png?ex=6569f47f&is=65577f7f&hm=947c5f29064e239834e5ae0a22715a62e851f3861827a3f5356a1739f336752f&">
+                <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175087480203129032/IMG_3819.jpg?ex=6569f47f&is=65577f7f&hm=869d4a51809d5dd636df42c983c88caa3a2f9389a6259801cf494e9d5709514c&">
+                <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175316646567608351/IMG_5587.png?ex=656ac9ec&is=655854ec&hm=41e22720e503ee42f0f40ff656dcbdc6c488cfc0581562261453170c8a6225f3&">
+                <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175316645930094642/IMG_5588.png?ex=656ac9ec&is=655854ec&hm=d18d191e8472e72a3256536add21c381e81206939a9e0175717ff31fdac30d64&">
+                <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175087481855684678/English_Centre.jpg?ex=6569f47f&is=65577f7f&hm=8f9b4befa023294032cfb8ba7d4760270c6b762b94160a2d75f527ab3f982a56&">
+                <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175318356576960522/IMG_3310.png?ex=656acb84&is=65585684&hm=cbb1b52c8f55dba46c4d1a3cc577e1122221bc94e741d3a2fdfe83e0408396a5&">
+                <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175316459312926720/IMG_0328.png?ex=656ac9c0&is=655854c0&hm=9d3203ca8c19d75bcd9a03cec4673d2da75ad03bcdf008dac047cc3063066df6&">
+                <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175087482426105898/IMG_3816.jpg?ex=6569f47f&is=65577f7f&hm=0993038499bcef10d0445af6ae3dfca69d87f10045691bddfee9fb7b42379f5c&">
+                <img src="https://cdn.discordapp.com/attachments/1040242845287731301/1175087482954592256/IMG_3814.jpg?ex=6569f480&is=65577f80&hm=ba1054a7f0efb3c983d9f5852a84b796378402f94360fb6945070b756fe2bdfa&">
+            </div>
+        </div>
+        <div class="forthpage">
+            <div class="projtextbg">
+                <div class="projtext">Projects</div>
+        </div>
+    </div>
+    <script>
+        function scrollbutton(height){
+           window.scrollTo(0,height) 
+        }
+    </script>
+</body>
+</html>

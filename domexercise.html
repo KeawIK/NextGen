@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box">
+        <button id="plus">+</button>
+        <button id="minus">-</button>
+    </div>
+    <script>
+        let numb = document.createElement("div")
+        numb.innerHTML = 0
+        console.log(numb)
+
+        let boxes = document.getElementById("box")
+        box.appendChild(numb)
+
+        function color() {
+            if (x > 9) {
+                numb.style.background = "green"
+            }
+            else if (x < 0) {
+                numb.style.background = "red"
+            }
+            else{
+                numb.style.background = ""
+            }
+        }
+        let x = 0
+        let plusbutton = document.getElementById("plus")
+        plusbutton.addEventListener('click', function () {
+            x = x + 1
+            console.log(x)
+            numb.innerHTML = x
+            color()
+
+        })
+        let minusbutton = document.getElementById("minus")
+        minusbutton.addEventListener('click', function () {
+            x = x - 1
+            console.log(x)
+            numb.innerHTML = x
+            color()
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="element">
+        <h1>Hello world</h1>
+    </div>]
+    <button id="my_button">click me</button>
+    <script>
+        let new_el = document.createElement("div")
+        new_el.innerHTML = "CENextGen"
+        new_el.style.background="green"
+        console.log(new_el)
+
+        let el = document.getElementById("element")
+        el.appendChild(new_el)
+
+        let btn = document.getElementById("my_button")
+        btn.addEventListener('click',function(){
+            new_el.style.background="pink"
+        })
+    </script>
+</body>
+
+</html>
